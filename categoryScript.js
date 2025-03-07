@@ -1,7 +1,6 @@
 const filterButtons = document.querySelectorAll(".filter-buttons .catogery-button");
 const filterableCards = document.querySelectorAll(".card-container .card-item");
 
-
 //Define the diltercards function
 const filterCards = (e) =>{
     document.querySelector(".active").classList.remove("active");
